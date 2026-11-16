@@ -54,6 +54,7 @@ zenith_harness = ["bundled/**/*", "py.typed"]
 [project.scripts]
 zenith = "zenith_harness.cli:cli"
 zenith-server = "zenith_harness.server:main"
+zenith-host = "zenith_harness.host_bridge:main"
 
 [dependency-groups]
 dev = [
